@@ -1,26 +1,19 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
+import { defineConfig } from 'vite';
+import react from '@vitejs/plugin-react';
 
-// https://vitejs.dev/config/
+// Configuración extendida de Vite para una aplicación React
 export default defineConfig({
   plugins: [react()],
-})
+  server: {
+    port: 3000,
+  },
+  resolve: {
+    alias: {
+      '@': '/src',
+    },
+  },
+});
 
 
-// -------------------------------------CONFIGURACIÓN AVANZADA PARA PROYECTOS MÁS COMPLEJOS----------------------------//
-// --------------------------------------------------------------------------------------------------------------------//
-// import { defineConfig } from 'vite';
-// import react from '@vitejs/plugin-react';
 
-// // Configuración extendida de Vite para una aplicación React
-// export default defineConfig({
-//   plugins: [react()],
-//   server: {
-//     port: 5173,
-//   },
-//   resolve: {
-//     alias: {
-//       '@': '/src',
-//     },
-//   },
-// });
+
