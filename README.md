@@ -10,12 +10,14 @@ backend/
 │
 
 └── app
+
  ├── __init__.py
  ├── models/
  │ └── # Archivos de definición de modelos de base de datos SQLAlchemy
  │
  ├── routes/
  │ └── # Archivos de rutas Flask para API y vistas
+ 
 ├── instance
 ├── venv
 ├── run.py
@@ -78,30 +80,30 @@ Asegúrate de tener instalado en tu máquina:
 
 ### Pasos de Instalación
 
-## 📝 1. **Clona el Repositorio**
+## 📝 1. Clona el Repositorio
 
    ```bash
    git clone https://github.com/TU_USUARIO/NombreDelRepositorio.git
    cd NombreDelRepositorio
    ```
 
-## 📝 2. **Instala las Dependencias del Front-end
+## 📝 2. Instala las Dependencias del Front-end
 ```bash
 cd frontend/my-react-app
 npm install
 ```
 
-## 📝 3. **Instala las Dependencias del Back-end
+## 📝 3. Instala las Dependencias del Back-end
 ```bash
 cd ../backend
 pip install -r requirements.txt
 ```
 
-## 📝 4. *Configura la Base de Datos
+## 📝 4. Configura la Base de Datos
 
 Asegúrate de tener configurada tu base de datos SQL y ajusta las configuraciones en backend según sea necesario.
 
-## 📝 5. **Inicia el servidor
+## 📝 5. Inicia el servidor
 
 ```bash
 # En el directorio backend/
@@ -111,7 +113,7 @@ python app.py
 npm run dev
 ```
 
-## 🌐 6. **Accede a la Aplicación
+## 🌐 6. Accede a la Aplicación
 
 Abre tu navegador y visita http://localhost:3000/ para ver la aplicación en funcionamiento.
 
